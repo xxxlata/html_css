@@ -1,0 +1,58 @@
+/*구글 폰트에서 url가져오기*/
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+</style>
+
+/*폰트사이즈*/
+p{
+    font-size: 20px; 
+
+}
+/*원하는 글자를 <span>사이에 끼워넣으면 그 글자만 크기조정가능</span>*/
+p span {
+    font-size: 30px;
+}
+
+/*글자 두께 지정*/
+p span {
+    font-size: 30px;
+    font-weight: 600;
+}
+ 
+/*이텔릭체로 변경*/
+p span {
+    font-style: italic;
+}
+
+/*글자 색 바꾸기*/
+
+<style>
+    h1 {color: cadetblue;}
+    h2 {color: rgb(0, 200,0);}
+    .accent {color: #ff0000;}
+</style>
+
+<h1>비 내리는 날씨 </h1>
+<img src="images/raining.jpg">
+<h2>풀숲(forest)</h2>
+<p>비 와 흙냄새가 우리 정서에 안정을 준다는 것이다.</p>
+<p>비에 젖은 흙 특유의 향은 <span class=".accent">피톤치드</span>라는 좋은 친구이다.</p>
+
+/*background 색 지정*/
+<style>
+body {
+    ::background-color:#0094ff;
+
+}
+div {
+    background-color:salmon;
+    width: 90%;
+    padding: 15px;
+    border:1px solid black;
+
+}
+p {
+    line-height: 30px;
+
+}
+</style>
