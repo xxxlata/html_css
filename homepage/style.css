@@ -1,0 +1,111 @@
+
+*{
+    font-family: 'Black Han Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100;
+    color: chartreuse;
+}
+
+
+.intro_text > h4{
+    color:rgb(245, 77, 217)
+}
+.contents1{
+    font-size: 19px;
+    font-weight: lighter;
+}
+.contents2{
+    font-size: 24px;
+}
+
+.intro_bg{
+    background-image:url("image/thonder\ cat.jpg") ;
+    width: cover;
+    height: 518px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background:red;
+    height: 86px;
+}
+.searchArea{
+    width: 300px;
+    height: 40px;
+    background:rgba(0,0,0,0,5);
+    border-radius: 10px;
+    margin-top: 24px;
+}
+.searchArea > form > input{
+    border:none;
+    width: 250px;
+    height: 40px;
+    background:rgb(252, 253, 253);
+    color:#fff;
+    padding-left: 10px;
+}
+.searchArea > form > span {
+    width: 35px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+        
+}
+
+.nav > li{
+    margin-left: 50px;
+}
+.nav > li > a {
+    color: #fff;
+}
+
+.amount {
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    background: #fff;
+    box-shadow: 5px 10px 0px rgba(0, 0, 0,0.1);
+    margin: auto;
+}
+
+.amount > li{
+    flex: 1;
+    height: 132px;
+    background: darkblue;
+}
+
+.amount > li > div{
+    text-align: center;
+    background:darkblue;
+    color: white;
+    height: 57px;
+    margin-top: 37px;
+    
+}
+.amount > li:not(:last-child) > div{
+    border-right:5px sandybrown ;
+}
+.intro_text{
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+}
