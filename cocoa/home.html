@@ -3,17 +3,52 @@
     <head>
         <link rel="shortcut icon" sizes="16*16 32*32 64*64" href="http://nomadcoders.co/m.png"/>
         <title>Home -my first website.</title>
-        <meta charset="utf-8"/>
-        <meta name="description" content="meta는 사이트에 대한 부가설명 태그">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+           
+            html {
+                background-color: darkseagreen;
+            }
+            body{
+                background-color: darkslateblue;
+                margin: 23px 45px 56px 65px;
+                padding: 20px;
+            }
+            div{
+               padding: 20px;
+               border: 10px black;
+            }
+            span{
+                
+                background-color: darkolivegreen;
+            }
+            #fir{
+                background-color: salmon;
+                width: 50px;
+                height: 50;
+                
+            }
+            #sec{
+                background-color: cornsilk;
+                width: 40px;
+                height: 40;
+            }
+            #thr{
+                background-color: rgb(99, 73, 73);
+                width: 30px;
+                height: 30;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <h1>의미 있는 태그 시멘틱 태그, 의미없는태그 논 시멘틱태그(div) </h1>
-        </header>
-        <main>
-            <footer>
-                &copy; 2021 N.C
-            </footer>
-        </main>
+        <div id="fir">
+            <div id="sec">
+                <div id="thr">
+                </div>
+            </div>
+        </div>
+       <span>inline은 옆에 다른 박스가 올수 있음</span>
+       <span>block은 옆에 다른 박스가 올수 없음</span>
+       <span>block이 아닌것 span, img, 링크들(a)</span>
     </body>
 </html>
