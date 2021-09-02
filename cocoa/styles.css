@@ -6,9 +6,19 @@
 @import"screen-header.css";
 @import"friends.css";
 @import"user-component.css";
+@import"badge.css";
+@import"find.css";
+@import"icon.css";
+@import"more.css";
+@import"alt-screen-header.css";
+@import"settings.css";
+@import"chatting.css";
 
 body {
     color: #2e363e;
     font-family: "Open Sans", sans-serif;
   }
 
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
