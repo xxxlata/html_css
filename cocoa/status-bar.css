@@ -3,23 +3,23 @@
     justify-content: center;
     padding: 5px 3px;
 }
-.status-bar__clumn{
+.status-bar__column{
     width: 33%;
 }
 
-.status-bar__clumn:first-child span{
+.status-bar__column:first-child span{
     margin-right: 5px;
 
 }
-.status-bar__clumn:nth-child(2) {
+.status-bar__column:nth-child(2) {
     display: flex;
     justify-content: center;
 }
-.status-bar__clumn:last-child{
+.status-bar__column:last-child{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.status-bar__clumn .fa-battery-full {
+.status-bar__column .fa-battery-full {
     margin: 0px 5px;
 }

@@ -12,6 +12,16 @@
 
 }
 
+.alt-header_column {
+    width: 33%;
+}
+
+.alt-header_column:first-child {
+    margin-right: auto;
+}
+
 .alt-header_column:last-child{
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
