@@ -1,24 +1,36 @@
-.nav {
+.nav{
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     background-color: #f9f9fa;
-    padding: 20px 50px;
+    padding: 20px 40px;
     box-sizing: border-box;
     border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
-.nav_list {
+.nav_list{
     display: flex;
     justify-content: space-between;
 }
+
 .nav_link{
     position: relative;
-    color: #2e363e;
+    color: #2e362e;
 }
-
 .nav_notification{
-
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
     position: absolute;
     left: 15px;
     bottom: 15px;
+}
+.nav_redbutton{
+    background-color: tomato;
+    position: absolute
 }
