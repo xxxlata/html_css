@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/dce981d912.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page_one">
+      <div class="bar_one">
+        <span class="left">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </span>
+        <span class="search">
+        <i class="fas fa-search fa-2x"></i>
+        </span>
+      </div>
+
+      <div class="main_img">
+        <div class="background">
+        <img class="img" src="https://i.pinimg.com/originals/83/66/57/8366574b877af9b1b9c3ae08e7f034e3.jpg" alt="">
+        </div>
+        <h1 class="main_name">Post Malone</h1>
+        <h3 class="main_suv">rap, Hip-Hop</h3>
+      </div>
+      <div class="Button">
+        <div class="shuffle">&nbsp; shuffle</div>
+        <div class="likes">&nbsp;<i class="fas fa-heartbeat fa-lg">687K</i>
+        </div>
+      </div>
+      
+      <div class="musicbox">
+        <div class="musicbox_one">
+          <img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99259D505C8DF74531" alt="">
+          <h3 class="musicbox_name">Post Malone</h3>
+          <h2 class="musicbox_onesuv">Better Now</h2>
+          <div class="better_icon">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="musicbox_two">
+          <div class="playing">
+            <i class="fas fa-wave-square fa-2x"></i>
+            <img src="https://images.genius.com/ef176757a5735c7a104dd735543c1d20.1000x1000x1.png" alt="">
+          </div>
+          <h3 class="musicbox_twoname">Post Malone</h3>
+          <h2 class="musicbox_twosuv">RockStar</h2>
+            <div class="rockstar_icon">
+            <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </div>
+        <div class="musicbox_thr">
+          <img src="https://i1.sndcdn.com/artworks-000453095229-y5m0e2-t500x500.jpg" alt="">
+          <h3 class="musicbox_thrname">Post Malone</h3>
+          <h2 class="musicbox_thrsuv">Sunflower</h2>
+          <div class="sunflower_icon">
+          <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+        <div class="musicbox_for">
+          <img src="https://m.media-amazon.com/images/I/51DkpEQ2xdL._SS500_.jpg" alt="">
+          <h3 class="musicbox_forname">Post Malone</h3>
+          <h2 class="musicbox_forsuv">Only Wanna Be...</h2>
+          <div class="only_icon">
+          <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <h3 class="footer_name">Post Malone</h3>
+        <h2 class="footer_suv">RockStar</h2>
+        <div class="player_icons"> 
+          <i class="fas fa-step-backward fa-lg"></i>
+          <i class="fas fa-pause fa-2x"></i>
+          <i class="fas fa-step-forward fa-lg"></i>
+        </div>
+      </div>
+    </div>
+    
+    <div class="page_two">
+      <div class="bar_two">
+        <span class="left">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </span>
+        <span class="search">
+        <i class="fas fa-ellipsis-v fa-2x"></i>
+        </span>
+      </div>
+
+      <div class="big_main">
+        <img src="https://images.genius.com/ef176757a5735c7a104dd735543c1d20.1000x1000x1.png" alt="">
+      </div>
+      <div class="big_main_tilte">
+        <h1 class="big_main_suv">RockStar</h1>
+        <h3 class="big_main_name">Post malon</h3>
+      </div>
+      <div class="time">
+        <div>1:56</div>
+        <div>3:29</div>
+      </div>
+      <div class="timer">
+        <div class="timer_contaner">
+          <input type="range" id="volume" name="volume"
+            min="1" max="100">
+        </div>
+      </div>
+      <div class="lastshot">
+        <i class="fas fa-sync-alt fa-lg"></i>
+        <i class="fas fa-step-backward fa-lg"></i>
+        <i class="fas fa-step-forward fa-lg"></i>
+        <i class="fas fa-random fa-lg"></i>
+      </div>
+      <div class="play_father">
+        <div class="play_button">
+          <i class="fas fa-play fa-lg fa-2x"></i>
+        </div>
+      </div>  
+
+    <script src="script.js"></script>
+  </body>
+</html>
+-----------------------------------------------------------------------------------------------------------
+.page_two {
+  height: 870px;
+  width: 600px;
+  background-color: white;
+  border-radius: 20px;
+  margin:30px;
+}
+.bar_two{
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  margin: 20px;
+}
+.search{
+  margin: 20px;
+}
+.big_main {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 400px;
+  width: 500px; 
+}
+.big_main > img{
+  width: 350px;
+  height: 350px;
+  margin: 0px 0px 0px 80px; 
+}
+.big_main_tilte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+     
+}
+.big_main_name {
+ 
+color: rgba(0, 0, 0, 0.3);
+margin: 5px;
+}
+.big_main_suv {
+
+margin: 5px ;
+font-size: 30px; 
+}
+.time{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.time :first-child{
+  margin: 30px 60px 5px 0px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.time :last-child{
+  margin: 30px 0px 5px 60px;
+  color: rgba(0, 0, 0, 0.3); 
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  
+}
+.timer_contaner {
+  width: 340px;
+  border: solid white;
+  
+}
+.timer_contaner > input {
+  width: 100%;
+  
+}
+.lastshot {
+  
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lastshot :first-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.lastshot :last-child {
+  color: rgba(0, 0, 0, 0.3);
+
+}
+.play_father{
+  position: relative;
+}
+.play_button{
+  position: absolute;
+  top: -135px;
+  right:220px; 
+  width: 60px;
+  height: 60px;
+  border-radius:50px;
+  background-color: black; 
+}
+.play_button :first-child{
+  position: absolute;
+  bottom: 20px; 
+  right:11px;
+  color: white;
+}
+-------------------------------------------------------------
+@import "style_pagetwo.css";
+
+body{
+background-color: rgb(236, 235, 235); 
+width: 1000px;
+display: flex;
+}
+.page_one {
+  height: 870px;
+  width: 600px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 20px;
+
+}
+.bar_one{
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  margin: 20px;
+}
+.search{
+  margin: 20px;
+}
+.main_img {
+  height: 250px;
+    
+  position: relative;
+}
+.img{
+  position: absolute;
+  height: 130px;
+  width:130px;
+  border-radius:100px;
+  bottom: 80px;
+  right: 140px;
+}
+.main_name{
+  position: absolute;
+  bottom: 20px;
+  right: 110px;  
+}
+.main_suv{
+  position: absolute;
+  bottom: 0px;
+  right: 150px;
+  color: rgba(0, 0, 0, 0.3);  
+}
+.Button{
+  
+  height: 80px; 
+   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.shuffle{
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px; 
+  margin-top: 30px;
+  color: white;
+  font-size: 24px;
+}
+.likes{
+  width: 100px;
+  height: 40px;
+  border-radius:20px; 
+  background-color: ghostwhite;
+  margin-top: 30px;
+}
+
+.musicbox {
+  height: 350px;
+  position: relative;
+}
+
+.background{
+  background:linear-gradient(to bottom, gray,white);
+  }
+img {
+  width: 70px;
+  height: 70px;
+  border-radius:15px;
+  margin: 10px 20px 5px; 
+  
+}
+.musicbox_name{
+  color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  right: 210px;
+  top: 0px;
+}
+.musicbox_onesuv{
+  position: absolute;
+  right: 190px;
+  top:20px;
+}
+.better_icon {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+
+.musicbox_twoname{
+  color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  right: 210px;
+  top: 80px;
+}
+.musicbox_twosuv{
+  position: absolute;
+  right: 220px;
+  top:100px;
+}
+.rockstar_icon{
+  position: absolute;
+  right: 50px;
+  top: 120px;
+}
+.playing{
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.1);
+  width: 440px; 
+  
+}
+.playing > i {
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+  color: white;
+}
+
+.musicbox_thrname{
+  color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  right: 210px;
+  top: 160px;
+}
+.musicbox_thrsuv{
+  position: absolute;
+  right: 210px;
+  top:180px;
+}
+.sunflower_icon{
+  position: absolute;
+  right: 50px;
+  top: 210px; 
+}
+.musicbox_forname{
+  color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  right: 210px;
+  top: 250px;
+}
+.musicbox_forsuv{
+  position: absolute;
+  right: 130px;
+  top:270px;
+}
+.only_icon{
+  position: absolute;
+  right: 50px;
+  top: 300px;
+}
+.footer{
+ position: relative;
+ height: 80px;
+ width: 400px;
+ margin: 20px;  
+ background-color: black;
+ border-radius:30px;
+ color: white; 
+}
+.footer_name {
+  color: gray;
+  position:absolute;
+  right:260px;
+  top:-10px;
+}
+.footer_suv{
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+.player_icons{
+  display: flex;
+  justify-content: flex-end;
+  border: solid white;
+  
+}
+.player_icons :first-child{
+  margin: 30px 5px 50px 50px; 
+}
+.player_icons :nth-child(2){
+  margin: 20px 10px 10px 20px; 
+}
+.player_icons :last-child{
+  margin: 30px 60px 10px 10px; 
+}
+
